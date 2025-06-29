@@ -1,6 +1,7 @@
 const { useMultiFileAuthState, default: makeWASocket, DisconnectReason } = require("baileys")
 const QRCode = require('qrcode')
 const axios = require("axios");
+require('dotenv').config()
 // const Producto = require("./models/Producto.js")
 
 const userContext = {}
